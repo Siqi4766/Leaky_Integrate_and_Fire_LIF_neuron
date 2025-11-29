@@ -1,5 +1,5 @@
 # Leaky Integrate-and-Fire (LIF) Neuron
-This is a simple computational neuroscience project implementing and exploring the LIF neuron as a part of _Neuromatch Academy_ Tutorial.
+This is a simple computational neuroscience project implementing and exploring the LIF neuron as a part of _Neuromatch Academy_ Tutorial. I will implement something extra to the tutorial (i.e. Excitatory vs. Inhibitory neurons..)
 
 The goal of this project is to:
 - Practice basic Python scripting in neuron modeling
@@ -42,4 +42,4 @@ I'll try to break this equation down using the knowledge obtained in NSCI200 at 
 - Leak term <img width="62" height="42" alt="Screenshot 2025-11-29 at 5 09 40 PM" src="https://github.com/user-attachments/assets/abc235c8-89d8-42c7-a124-674f83fc1286" />: if V is above resting membrane potential, this term is negative and pulls V back down exponentially with time constant τₘ
 - Input term <img width="59" height="38" alt="Screenshot 2025-11-29 at 5 13 55 PM" src="https://github.com/user-attachments/assets/02034c3c-42d7-4af0-84f8-64dbd3bdf190" />: drives the membrane toward a new steady voltage proportional to input current.
 
-Note that when the membrane potential crosses threshold, the differential equation STOPS being applied!!
+Note that when the membrane potential crosses threshold, the differential equation STOPS being applied!! V will reset
