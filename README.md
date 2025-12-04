@@ -8,21 +8,25 @@ The goal of this project is to:
 - Explore how parameters (τₘ, R, Vₜₕ, V_reset, E_L) affect spiking behavior
 - Visualize neuron firing patterns
 
-Although individual neuronal activity matters, most of the research labs focus on viewing the brain as a whole! However, that will implement more complex computation which is beyond my knowledge for now XD. This is my first repository and modeling practice so I will start by stimulating one single neuron and hopefully I will be able to model brain-wide activity in the future!
+_Although individual neuronal activity matters, most of the research labs focus on viewing the brain as a whole (aka network neuroscience)! However, that will implement more complex computation which is beyond my knowledge for now XD. This is my first repository and modeling practice so I will start by stimulating one single neuron and hopefully I will be able to model brain-wide activity in the future!_
 
-## Electrophysiology? It's all just physics..
+## Electrophysiology (how we model biology with physics!)
 The ionic equivalent of conductance is **ion channels**
-- conductance is a measure of permeability to ionic flux
-- conductance = the current carried by that ion divided by its “driving force”, where driving force = (Vm - Ex)
+- conductance is a measure of how easily current flows across the membrane. It's a combined measure of permeability and number of ions
 
 The ionic equivalent of voltage is **driving force**. Driving force is "How badly ions want to flow through" 
 - The driving force is the difference between the membrane potential (Vm) and the ion’s equilibrium (Nernst) potential.
 
 The ionic equivalent of capacitance is the **hydrophobic plasma membrane itself**
+- A capacitor is a device that stores energy in the electric field created between a pair of conductors, separated by an insulating layer, on which equal but opposite electric charges have been placed
 - membrane can be charged and discharged.
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/11f01b0f-6679-4917-b5a7-3348dd6eee90" />
 
-The neuron can also be modeled as a resistor 
-- High membrane resistance: less leak across the membrane, signal stays stronger.
+
+The neuron can also be modeled as a **resistor**
+- High membrane resistance (rm): less leak across the membrane, signal stays stronger inside.
+  - rm represents the resistance of the entire cell
+- There's also Rm (specific resistance of a unit area), ra (internal axial resistance, smaller ra = easier current flow inside, signal spreads further)
 
 ## The LIF membrane equation
 <img width="240" height="64" alt="image" src="https://github.com/user-attachments/assets/6236a6b4-5e43-4be7-89d7-4e382ecbd163" />
