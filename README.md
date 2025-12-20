@@ -1,5 +1,5 @@
 # Leaky Integrate-and-Fire (LIF) Neuron
-This is a simple computational neuroscience project implementing and exploring the LIF neuron as a part of _Neuromatch Academy_ Tutorial. I will implement something extra to the tutorial (i.e. Excitatory vs. Inhibitory neurons..)
+This is a simple computational neuroscience project implementing and exploring the LIF neuron as a part of _Neuromatch Academy_ Tutorial. 
 
 The goal of this project is to:
 - Practice basic Python scripting in neuron modeling
@@ -7,8 +7,6 @@ The goal of this project is to:
 - Simulate membrane potential dynamics under different input currents
 - Explore how parameters (τₘ, R, Vₜₕ, V_reset, E_L) affect spiking behavior
 - Visualize neuron firing patterns
-
-_Although individual neuronal activity matters, most of the research labs focus on viewing the brain as a whole (aka network neuroscience)! However, that will implement more complex computation which is beyond my knowledge for now XD. This is my first repository and modeling practice so I will start by stimulating one single neuron and hopefully I will be able to model brain-wide activity in the future!_
 
 ## Electrophysiology (how we model biology with physics!)
 The ionic equivalent of conductance is **ion channels**
@@ -33,7 +31,6 @@ The neuron can also be modeled as a **resistor**
 
 The membrane equation describes the time evolution of membrane potential in response to synaptic input and leaking of charge across the cell membrane
 
-I'll try to break this equation down using the knowledge obtained in NSCI200 at McGill (Dr. Ruthazer section specifically):
 - E_L: resting membrane potential (~ -70 mV)
 - R: membrane resistance
 - I(t): input current (amps or pA).
