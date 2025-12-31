@@ -10,7 +10,7 @@ The goal of this project is to:
 
 This is the first model I built, welcome to point out any bugs / algorithms to be optimized!
 
-# The LIF membrane equation
+# The LIF Membrane Equation
 <img width="240" height="64" alt="image" src="https://github.com/user-attachments/assets/6236a6b4-5e43-4be7-89d7-4e382ecbd163" />
 
 The membrane equation describes the time evolution of membrane potential in response to synaptic input and leaking of charge across the cell membrane
@@ -28,3 +28,10 @@ The membrane equation describes the time evolution of membrane potential in resp
 - Input term <img width="59" height="38" alt="Screenshot 2025-11-29 at 5 13 55 PM" src="https://github.com/user-attachments/assets/02034c3c-42d7-4af0-84f8-64dbd3bdf190" />: drives the membrane toward a new steady voltage proportional to input current.
 
 Note that when the membrane potential crosses threshold, the differential equation STOPS being applied!! V will reset once threshold is reached.
+
+# Random Synaptic Input Equation
+<img width="622" height="122" alt="image" src="https://github.com/user-attachments/assets/6a841548-fa71-44e1-b8e4-5f54651dc41c" />
+
+# Neuron as binary number?
+We can treat an action potential (spike) represents 1 and resting state represents 0. Then we can plot these 0 and 1 into a binary raster plot that:
+- graphically represent of the precise times at which one or more neurons fire an action potential (spike) over a period of time. 
