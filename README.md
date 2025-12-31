@@ -1,5 +1,5 @@
 # Intro
-This is a computational neuroscience project implementing and exploring the **Leaky Integrate-and-Fire (LIF)** neuron model. It was developed through the _Neuromatch Academy_ curriculum. While _Neuromatch_ provides step-by-step guidance, I consolidated those steps into a object-oriented Python simulation (`LIFNeurons` class).
+This is a computational neuroscience project implementing and exploring the **Leaky Integrate-and-Fire (LIF)** neuron model. It was developed based on the _Neuromatch Academy_ curriculum. While _Neuromatch_ provides step-by-step guidance, I consolidated those steps into a object-oriented Python simulation (`LIFNeurons` class).
 
 The goal of this project is to:
 - Practice basic Python scripting in neuron modeling
