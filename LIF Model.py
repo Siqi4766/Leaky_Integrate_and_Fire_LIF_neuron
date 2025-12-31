@@ -133,7 +133,8 @@ class LIFNeurons:
             last_spike[spiked] = t
 
         return t_range, v, raster
-    
+
+# Create new instance. Try to play around with different parameters and see what happens      
 model = LIFNeurons(n=500, t_ref=0.005) 
 
 t, v, raster = model.run(t_max=0.15)
