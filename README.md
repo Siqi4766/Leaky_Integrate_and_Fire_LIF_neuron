@@ -1,32 +1,16 @@
-# Leaky Integrate-and-Fire (LIF) Neuron
-This is a simple computational neuroscience project implementing and exploring the LIF neuron as a part of _Neuromatch Academy_ Tutorial. 
+# Intro
+This is a computational neuroscience project implementing and exploring the **Leaky Integrate-and-Fire (LIF)** neuron model. It was developed as a comprehensive summary of the key concepts from the _Neuromatch Academy_ Tutorial (specifically W0D1 and W0D2).
 
 The goal of this project is to:
 - Practice basic Python scripting in neuron modeling
 - Understand the LIF membrane equation
 - Simulate membrane potential dynamics under different input currents
 - Explore how parameters (τₘ, R, Vₜₕ, V_reset, E_L) affect spiking behavior
-- Visualize neuron firing patterns
+- Visualize neuron firing patterns 
 
-## Electrophysiology (how we model biology with physics!)
-The ionic equivalent of conductance is **ion channels**
-- conductance is a measure of how easily current flows across the membrane. It's a combined measure of permeability and number of ions
+This is the first model I built, welcome to point out any bugs / algorithms to be optimized!
 
-The ionic equivalent of voltage is **driving force**. Driving force is "How badly ions want to flow through" 
-- The driving force is the difference between the membrane potential (Vm) and the ion’s equilibrium (Nernst) potential.
-
-The ionic equivalent of capacitance is the **hydrophobic plasma membrane itself**
-- A capacitor is a device that stores energy in the electric field created between a pair of conductors, separated by an insulating layer, on which equal but opposite electric charges have been placed
-- membrane can be charged and discharged.
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/11f01b0f-6679-4917-b5a7-3348dd6eee90" />
-
-
-The neuron can also be modeled as a **resistor**
-- High membrane resistance (rm): less leak across the membrane, signal stays stronger inside.
-  - rm represents the resistance of the entire cell
-- There's also Rm (specific resistance of a unit area), ra (internal axial resistance, smaller ra = easier current flow inside, signal spreads further)
-
-## The LIF membrane equation
+# The LIF membrane equation
 <img width="240" height="64" alt="image" src="https://github.com/user-attachments/assets/6236a6b4-5e43-4be7-89d7-4e382ecbd163" />
 
 The membrane equation describes the time evolution of membrane potential in response to synaptic input and leaking of charge across the cell membrane
