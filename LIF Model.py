@@ -111,7 +111,7 @@ class LIFNeurons:
         steps = len(t_range) # 150 steps
 
         # 2. Current 
-        # creating a matrix of size 500 neurons X 150 time steps. At each time step, the current is randomly determined for every single neuron by Equation 1.
+        # creating a matrix of size 500 neurons X 150 time steps. At each time step, the current is randomly determined for every single neuron by Random Synaptic Input equation.
         i = i_mean * (1 + 0.1 * (t_max / self.dt)**(0.5) * (2 * np.random.random([self.n, steps]) - 1))
 
         # 3. Initialize v, raster, last_spike
